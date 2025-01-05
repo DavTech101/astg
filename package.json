@@ -1,0 +1,27 @@
+{
+  "name": "astg",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "build": "turbo build",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "web": "pnpm --filter web",
+    "api": "pnpm --filter api",
+    "common": "pnpm --filter common",
+    "elements": "pnpm --filter elements",
+    "validators": "pnpm --filter validators",
+    "eslint-config": "pnpm --filter eslint-config",
+    "typescript-config": "pnpm --filter typescript-config"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "prettier": "^3.2.5",
+    "typescript": "5.5.4"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18"
+  }
+}
